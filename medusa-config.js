@@ -69,6 +69,7 @@ module.exports = {
     // database_type: "sqlite",
     store_cors: STORE_CORS,
     admin_cors: ADMIN_CORS,
+    database_extra: { ssl: { rejectUnauthorized: false } }
   },
   plugins,
 };
